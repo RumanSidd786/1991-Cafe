@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>1991 Cafe & Lounge — Premium Cafe & Lounge in Lucknow</title>
+<meta name="description" content="1991 Cafe & Lounge in Mahedgunj, Lucknow — North Indian, Chinese, pizza, momos & more in a warm, premium lounge setting. Reserve your table today." />
+<meta property="og:title" content="1991 Cafe & Lounge — Lucknow" />
+<meta property="og:description" content="Warm lounge atmosphere, signature dishes & curated beverages in Mahedgunj, Lucknow." />
+<meta property="og:image" content="assets/hero-interior.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"Playfair Display"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+        colors: {
+          bg: '#1a1410',
+          card: '#241c17',
+          fg: '#f5ecdf',
+          muted: '#a8978a',
+          gold: '#d4a857',
+          goldsoft: '#b08a3f',
+          ember: '#c66b3d',
+          border: 'rgba(212,168,87,0.18)',
+        },
+      },
+    },
+  };
+</script>
+<style>
+  :root { --gold:#d4a857; --gold2:#e8c87a; }
+  html { scroll-behavior:smooth; }
+  body { background:#1a1410; color:#f5ecdf; font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased; }
+  h1,h2,h3,h4 { font-family:'Playfair Display',serif; letter-spacing:-.01em; }
+  .text-gold-grad { background:linear-gradient(135deg,#e8c87a,#b08a3f); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .bg-gold-grad { background:linear-gradient(135deg,#e8c87a,#b08a3f); }
+  .shadow-gold { box-shadow:0 10px 40px -10px rgba(212,168,87,.45); }
+  .shadow-elegant { box-shadow:0 20px 60px -20px rgba(0,0,0,.6); }
+  .gold-divider { height:1px; background:linear-gradient(90deg,transparent,var(--gold) 50%,transparent); }
+  .grad-hero { background:linear-gradient(180deg,rgba(20,15,10,.2) 0%,rgba(20,15,10,.55) 50%,rgba(20,15,10,.95) 100%); }
+  @keyframes float-up { 0%{opacity:0;transform:translateY(20px)} 100%{opacity:1;transform:translateY(0)} }
+  .animate-float-up { animation:float-up .8s ease-out both; }
+  @keyframes shimmer { 0%,100%{opacity:.6} 50%{opacity:1} }
+  .animate-shimmer { animation:shimmer 3s ease-in-out infinite; }
+  @keyframes ken-burns { 0%{transform:scale(1.05)} 100%{transform:scale(1.18)} }
+  .animate-ken { animation:ken-burns 18s ease-in-out infinite alternate; }
+  .scrollbar-hide::-webkit-scrollbar { display:none; }
+  .scrollbar-hide { -ms-overflow-style:none; scrollbar-width:none; }
+</style>
+</head>
+<body class="bg-bg text-fg">
+
+<!-- ===== NAV ===== -->
+<header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-bg/70 border-b border-border">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-2">
+      <span class="font-display text-2xl font-bold text-gold-grad">1991</span>
+      <span class="hidden sm:block text-xs uppercase tracking-[0.25em] text-muted">Cafe &amp; Lounge</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#about" class="text-sm text-fg/80 hover:text-gold transition-colors">About</a>
+      <a href="#menu" class="text-sm text-fg/80 hover:text-gold transition-colors">Menu</a>
+      <a href="#gallery" class="text-sm text-fg/80 hover:text-gold transition-colors">Gallery</a>
+      <a href="#visit" class="text-sm text-fg/80 hover:text-gold transition-colors">Visit</a>
+      <a href="tel:07860669843" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-grad text-bg text-sm font-semibold shadow-gold hover:scale-105 transition-transform">
+        📞 Reserve
+      </a>
+    </nav>
+    <button id="navToggle" class="md:hidden p-2" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-border bg-bg/95 px-5 py-4 flex-col gap-4">
+    <a href="#about" class="block py-2">About</a>
+    <a href="#menu" class="block py-2">Menu</a>
+    <a href="#gallery" class="block py-2">Gallery</a>
+    <a href="#visit" class="block py-2">Visit</a>
+    <a href="tel:07860669843" class="mt-2 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-full bg-gold-grad text-bg font-semibold">📞 Reserve a Table</a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="top" class="relative min-h-screen flex items-center overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="assets/hero-interior.jpg" alt="1991 Cafe & Lounge interior" class="w-full h-full object-cover animate-ken" />
+    <div class="absolute inset-0 grad-hero"></div>
+  </div>
+  <div class="relative z-10 max-w-7xl mx-auto px-5 md:px-8 pt-24 pb-16 w-full">
+    <div class="max-w-2xl animate-float-up">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gold/40 bg-bg/30 backdrop-blur text-xs uppercase tracking-[0.25em] text-gold mb-6">
+        ✦ Lucknow's hidden lounge
+      </div>
+      <h1 class="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-[1.05]">
+        Where every <span class="text-gold-grad italic">evening</span> feels like a celebration.
+      </h1>
+      <p class="mt-6 text-lg text-fg/80 max-w-xl">
+        Authentic North Indian, Chinese &amp; continental flavours served in a warm, lantern-lit lounge in Mahedgunj, Lucknow. Pull up a leather couch — we saved you a seat.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="tel:07860669843" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-gold-grad text-bg font-semibold shadow-gold hover:scale-105 transition-transform">📞 Reserve a Table</a>
+        <a href="https://wa.me/917860669843?text=Hi%201991%20Cafe%20%26%20Lounge%2C%20I%27d%20like%20to%20reserve%20a%20table." target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-gold/50 bg-bg/40 backdrop-blur font-medium hover:bg-gold/10 transition-colors">💬 Chat on WhatsApp</a>
+      </div>
+      <div class="mt-10 flex flex-wrap items-center gap-6 text-sm text-fg/70">
+        <div class="flex items-center gap-2"><span class="text-gold">📍</span> Mahedgunj, Lucknow</div>
+        <div class="flex items-center gap-2"><span class="text-gold">🕒</span> Open 11 AM – 9 PM</div>
+        <div class="flex items-center gap-2"><span class="text-gold">🍽️</span> North Indian · Chinese</div>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-xs text-fg/50 tracking-[0.3em] uppercase animate-shimmer">Scroll to explore</div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="py-24 md:py-32">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+    <div class="relative">
+      <img src="assets/interior-seating.jpg" alt="9191 brand wall with leather seating" class="rounded-2xl shadow-elegant w-full aspect-[4/5] object-cover" loading="lazy" />
+      <div class="absolute -bottom-6 -right-6 hidden md:block bg-gold-grad text-bg rounded-2xl p-6 shadow-gold max-w-[200px]">
+        <div class="font-display text-4xl font-bold">11—9</div>
+        <div class="text-xs uppercase tracking-widest mt-1">Open daily</div>
+      </div>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-4">Our Story</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold leading-tight">A warm corner of <span class="text-gold-grad">Lucknow</span> where flavours linger.</h2>
+      <div class="gold-divider my-8 max-w-[120px]"></div>
+      <p class="text-fg/80 text-lg leading-relaxed">1991 Cafe &amp; Lounge was built around a simple idea: great food deserves great company. Tucked away on Sitapur Road, our brick walls, plush leather seating and golden lantern glow set the stage for unhurried meals with friends and family.</p>
+      <p class="text-fg/70 mt-4 leading-relaxed">From smoky tandoor classics to wok-fired Chinese, fresh-baked pizzas and creamy pastas — every plate is cooked to order with ingredients we'd happily serve our own families.</p>
+      <div class="mt-8 grid grid-cols-3 gap-6">
+        <div><div class="font-display text-3xl text-gold-grad font-bold">10+</div><div class="text-xs uppercase tracking-widest text-muted mt-1">Cuisines</div></div>
+        <div><div class="font-display text-3xl text-gold-grad font-bold">100+</div><div class="text-xs uppercase tracking-widest text-muted mt-1">Dishes</div></div>
+        <div><div class="font-display text-3xl text-gold-grad font-bold">4★</div><div class="text-xs uppercase tracking-widest text-muted mt-1">Loved Locally</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SIGNATURES ===== -->
+<section class="py-24 md:py-32 bg-card/40">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="flex items-end justify-between flex-wrap gap-6 mb-14">
+      <div>
+        <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Chef's Picks</div>
+        <h2 class="font-display text-4xl md:text-5xl font-bold leading-tight max-w-2xl">Signature dishes our regulars <span class="text-gold-grad italic">come back for.</span></h2>
+      </div>
+      <a href="#menu" class="text-gold text-sm font-semibold hover:underline">View full menu →</a>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="sigGrid"></div>
+  </div>
+</section>
+
+<!-- ===== WHY US ===== -->
+<section class="py-24 md:py-28">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="max-w-2xl mb-14">
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Why 1991</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold">More than a meal — it's the <span class="text-gold-grad">whole evening.</span></h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="whyGrid"></div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section id="menu" class="py-24 md:py-32 bg-card/40">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">The Menu</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold">A taste of <span class="text-gold-grad italic">everything</span> we love.</h2>
+      <div class="gold-divider my-6 max-w-[120px] mx-auto"></div>
+      <p class="text-muted">Browse by category. Prices in INR. Vegetarian dishes marked in green.</p>
+    </div>
+    <div id="menuTabs" class="flex gap-2 overflow-x-auto pb-3 mb-10 scrollbar-hide -mx-5 px-5"></div>
+    <div id="menuItems" class="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-5xl mx-auto bg-bg/50 border border-border rounded-3xl p-8 md:p-12 backdrop-blur"></div>
+    <div class="mt-12 flex flex-wrap items-center justify-center gap-3">
+      <span class="text-sm text-muted mr-2">Order online:</span>
+      <a href="https://www.zomato.com/lucknow" target="_blank" rel="noreferrer" class="px-5 py-2.5 rounded-full bg-[#E23744] text-white text-sm font-semibold hover:scale-105 transition-transform">Zomato</a>
+      <a href="https://www.swiggy.com/" target="_blank" rel="noreferrer" class="px-5 py-2.5 rounded-full bg-[#FC8019] text-white text-sm font-semibold hover:scale-105 transition-transform">Swiggy</a>
+      <a href="tel:07860669843" class="px-5 py-2.5 rounded-full border border-gold/50 text-gold text-sm font-semibold hover:bg-gold/10">Call to order</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="py-24 md:py-32">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="mb-12">
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Inside 1991</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold max-w-xl">A look at our <span class="text-gold-grad">space.</span></h2>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[160px] md:auto-rows-[220px]">
+      <div class="overflow-hidden rounded-2xl group md:col-span-2 md:row-span-2"><img src="assets/hero-interior.jpg" alt="Brick wall with 9191 sign" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" /></div>
+      <div class="overflow-hidden rounded-2xl group"><img src="assets/interior-neon-wings.jpg" alt="Neon wings" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" /></div>
+      <div class="overflow-hidden rounded-2xl group"><img src="assets/interior-lounge.jpg" alt="Dim lounge" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" /></div>
+      <div class="overflow-hidden rounded-2xl group"><img src="assets/interior-sofas.jpg" alt="Leather sofas" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" /></div>
+      <div class="overflow-hidden rounded-2xl group"><img src="assets/food-chilli-chicken.jpg" alt="Chilli chicken" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="py-24 md:py-28 bg-card/40">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Guest Words</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold">What our <span class="text-gold-grad italic">guests</span> say.</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6" id="reviews"></div>
+  </div>
+</section>
+
+<!-- ===== VISIT ===== -->
+<section id="visit" class="py-24 md:py-32">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Visit Us</div>
+      <h2 class="font-display text-4xl md:text-5xl font-bold leading-tight">Come spend an <span class="text-gold-grad italic">evening</span> with us.</h2>
+      <div class="gold-divider my-8 max-w-[120px]"></div>
+      <div class="space-y-6">
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-gold-grad flex items-center justify-center text-bg flex-shrink-0">📍</div>
+          <div>
+            <div class="font-semibold">Address</div>
+            <p class="text-muted text-sm leading-relaxed mt-1">Sitapur Road, Iradat Nagar, Mahedgunj,<br /> Lucknow — 226020</p>
+            <a href="https://maps.app.goo.gl/tdpgyKU1LXGh32Xa8" target="_blank" rel="noreferrer" class="text-gold text-sm font-semibold mt-2 inline-block hover:underline">Get directions →</a>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-gold-grad flex items-center justify-center text-bg flex-shrink-0">🕒</div>
+          <div>
+            <div class="font-semibold">Opening Hours</div>
+            <p class="text-muted text-sm mt-1">Sunday — Monday · 11:00 AM – 9:00 PM</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-gold-grad flex items-center justify-center text-bg flex-shrink-0">📞</div>
+          <div>
+            <div class="font-semibold">Reservations</div>
+            <a href="tel:07860669843" class="text-muted text-sm hover:text-gold block mt-1">07860669843</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 flex flex-wrap gap-3">
+        <a href="tel:07860669843" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-gold-grad text-bg font-semibold shadow-gold hover:scale-105 transition-transform">📞 Call to Reserve</a>
+        <a href="https://wa.me/917860669843" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#25D366] text-white font-semibold hover:scale-105 transition-transform">💬 WhatsApp</a>
+      </div>
+    </div>
+    <div class="relative rounded-2xl overflow-hidden shadow-elegant border border-border aspect-[4/5] lg:aspect-auto lg:h-[600px]">
+      <iframe title="1991 Cafe & Lounge location" src="https://www.google.com/maps?q=Sitapur+Road+Mahedgunj+Lucknow+226020&output=embed" class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="relative py-24 md:py-32 overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="assets/interior-lounge.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
+    <div class="absolute inset-0 bg-bg/85"></div>
+  </div>
+  <div class="relative max-w-3xl mx-auto px-5 text-center">
+    <div class="text-xs uppercase tracking-[0.3em] text-gold mb-4">Reserve Your Table</div>
+    <h2 class="font-display text-4xl md:text-6xl font-bold leading-tight">Your table at <span class="text-gold-grad italic">1991</span> is one tap away.</h2>
+    <p class="mt-6 text-fg/80 text-lg">Whether it's a quick bite, a long lounge evening, or a celebration — we'd love to host you.</p>
+    <div class="mt-10 flex flex-wrap gap-3 justify-center">
+      <a href="tel:07860669843" class="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-gold-grad text-bg font-semibold shadow-gold hover:scale-105 transition-transform">📞 Call 07860669843</a>
+      <a href="https://wa.me/917860669843" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-[#25D366] text-white font-semibold hover:scale-105 transition-transform">💬 WhatsApp Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="border-t border-border py-12 bg-bg">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-3 gap-10">
+    <div>
+      <div class="font-display text-3xl font-bold text-gold-grad">1991</div>
+      <div class="text-xs uppercase tracking-[0.25em] text-muted mt-1">Cafe &amp; Lounge</div>
+      <p class="text-sm text-muted mt-4 max-w-xs leading-relaxed">A warm corner of Mahedgunj for unhurried meals, great coffee, and lounge evenings.</p>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-[0.25em] text-gold mb-4">Visit</div>
+      <p class="text-sm text-fg/80 leading-relaxed">Sitapur Road, Iradat Nagar,<br /> Mahedgunj, Lucknow — 226020</p>
+      <a href="https://maps.app.goo.gl/tdpgyKU1LXGh32Xa8" target="_blank" rel="noreferrer" class="text-sm text-gold mt-2 inline-block hover:underline">Open in Google Maps →</a>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-[0.25em] text-gold mb-4">Contact</div>
+      <a href="tel:07860669843" class="text-sm text-fg/80 hover:text-gold block">07860669843</a>
+      <a href="https://wa.me/917860669843" target="_blank" rel="noreferrer" class="text-sm text-fg/80 hover:text-gold block mt-1">WhatsApp</a>
+      <div class="flex gap-2 mt-4">
+        <a href="https://www.zomato.com/lucknow" target="_blank" rel="noreferrer" class="text-xs px-3 py-1.5 rounded-full bg-[#E23744] text-white">Zomato</a>
+        <a href="https://www.swiggy.com/" target="_blank" rel="noreferrer" class="text-xs px-3 py-1.5 rounded-full bg-[#FC8019] text-white">Swiggy</a>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 md:px-8 mt-10 pt-6 border-t border-border text-xs text-muted flex flex-wrap items-center justify-between gap-2">
+    <div>© <span id="yr"></span> 1991 Cafe &amp; Lounge. All rights reserved.</div>
+    <div>Open daily · 11 AM – 9 PM</div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING ACTIONS ===== -->
+<div class="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
+  <a href="https://wa.me/917860669843" target="_blank" rel="noreferrer" aria-label="WhatsApp" class="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform text-2xl">💬</a>
+  <a href="tel:07860669843" aria-label="Call" class="md:hidden w-14 h-14 rounded-full bg-gold-grad text-bg flex items-center justify-center shadow-gold hover:scale-110 transition-transform text-2xl">📞</a>
+</div>
+
+<script>
+  // Mobile nav
+  const t = document.getElementById('navToggle');
+  const m = document.getElementById('mobileMenu');
+  t.addEventListener('click', () => { m.classList.toggle('hidden'); m.classList.toggle('flex'); });
+  m.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { m.classList.add('hidden'); m.classList.remove('flex'); }));
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Signatures
+  const signatures = [
+    { name:"Honey Chilly Potato", desc:"Crispy potato sticks tossed in a glossy honey-chilli glaze with sesame.", price:"₹140", img:"assets/food-honey-chilli.jpg", big:true },
+    { name:"Chilly Chicken", desc:"Wok-fired chicken with bell peppers in our house chilli sauce.", price:"₹280", img:"assets/food-chilli-chicken.jpg" },
+    { name:"Hakka Noodles", desc:"Stir-fried noodles with crunchy seasonal vegetables, a guest favourite.", price:"₹110", img:"assets/food-noodles.jpg" },
+    { name:"Sweet Corn Soup", desc:"Velvety, slow-simmered broth with golden corn — comfort in a bowl.", price:"₹60", img:"assets/food-soup.jpg" },
+    { name:"Cold Coffee + Ice Cream", desc:"Frothy cold coffee crowned with a generous scoop of vanilla.", price:"₹150", img:"assets/food-drinks.jpg" },
+  ];
+  document.getElementById('sigGrid').innerHTML = signatures.map((d,i)=>`
+    <article class="group relative rounded-2xl overflow-hidden bg-card border border-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-gold ${d.big?'lg:row-span-2':''}">
+      <div class="overflow-hidden ${d.big?'aspect-[3/4]':'aspect-[4/3]'}">
+        <img src="${d.img}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+      </div>
+      <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-bg/80 backdrop-blur text-gold text-sm font-bold">${d.price}</div>
+      <div class="p-6">
+        <h3 class="font-display text-2xl font-semibold">${d.name}</h3>
+        <p class="text-sm text-muted mt-2 leading-relaxed">${d.desc}</p>
+      </div>
+    </article>`).join('');
+
+  // Why us
+  const why = [
+    { icon:"👨‍🍳", title:"Cooked to Order", desc:"Every plate fired up fresh — no shortcuts, no reheating." },
+    { icon:"🌿", title:"Quality Ingredients", desc:"Hand-picked vegetables, fresh paneer and tender cuts daily." },
+    { icon:"❤️", title:"Lounge Comfort", desc:"Plush leather seating, ambient lighting — stay as long as you like." },
+    { icon:"⭐", title:"Loved by Locals", desc:"A trusted Mahedgunj favourite for casual dates and family dinners." },
+  ];
+  document.getElementById('whyGrid').innerHTML = why.map(p=>`
+    <div class="p-7 rounded-2xl bg-card border border-border hover:border-gold/40 hover:shadow-gold transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gold-grad flex items-center justify-center text-bg mb-5 text-2xl">${p.icon}</div>
+      <h3 class="font-display text-xl font-semibold">${p.title}</h3>
+      <p class="text-sm text-muted mt-2 leading-relaxed">${p.desc}</p>
+    </div>`).join('');
+
+  // Reviews
+  const reviews = [
+    { name:"Aaliya R.", text:"Honey chilly potato is a MUST. The lounge vibe with brick walls and warm lights makes you want to stay for hours." },
+    { name:"Rohan K.", text:"Came with friends after work — chilly chicken and Hakka noodles were spot on. Service was warm and quick." },
+    { name:"Sneha M.", text:"One of the cosiest spots in Mahedgunj. Great for casual dates and family meals. The cold coffee with ice cream is unreal." },
+  ];
+  document.getElementById('reviews').innerHTML = reviews.map(r=>`
+    <figure class="p-8 rounded-2xl bg-bg border border-border hover:border-gold/40 transition-all">
+      <div class="text-gold/60 text-3xl mb-4">"</div>
+      <blockquote class="text-fg/90 leading-relaxed">${r.text}</blockquote>
+      <figcaption class="mt-6 flex items-center justify-between">
+        <span class="font-semibold">${r.name}</span>
+        <span class="text-gold">★★★★★</span>
+      </figcaption>
+    </figure>`).join('');
+
+  // Menu data
+  const menu = [
+    { title:"Soups", items:[
+      {n:"Veg Sweet Corn",p:"60",v:1},{n:"Veg Hot & Sour",p:"60",v:1},{n:"Veg Manchow",p:"60",v:1},{n:"Veg Peaking",p:"60",v:1},
+      {n:"Sweet Corn Chicken",p:"70"},{n:"Hot & Sour Chicken",p:"70"},{n:"Manchow Chicken",p:"70"},{n:"Peaking Chicken",p:"70"}]},
+    { title:"Momos (6 pcs.)", items:[
+      {n:"Steamed Veg",p:"70",v:1},{n:"Pan Fried",p:"80",v:1},{n:"Deep Fried Veg",p:"80",v:1},{n:"Paneer Cheese",p:"90",v:1},
+      {n:"Chicken Steamed",p:"110"},{n:"Chicken Pan Fried",p:"110"},{n:"Chicken Deep Fried",p:"110"},{n:"Extra Mayonnaise",p:"40",v:1}]},
+    { title:"Starters", items:[
+      {n:"French Fries",p:"70",v:1},{n:"Spring Roll (2 pcs)",p:"100",v:1},{n:"Crispy Spring Roll",p:"110",v:1},
+      {n:"Crispy Chilly Potato",p:"130",v:1,t:"Popular"},{n:"Honey Chilly Potato",p:"140",v:1,t:"Signature"},
+      {n:"Veg Manchurian Dry",p:"150",v:1},{n:"Golden Fried Corn",p:"160",v:1},{n:"Paneer Manchurian Dry",p:"170",v:1},
+      {n:"Chilly Paneer Dry",p:"170",v:1},{n:"Corn Pepper Chilly",p:"170",v:1},{n:"Mushroom Chilly Dry",p:"170",v:1},
+      {n:"Paneer 65",p:"180",v:1},{n:"Chilly Chicken Dry",p:"180",t:"Signature"},{n:"Chicken 65",p:"260"},
+      {n:"Chicken Lollipop (2 pcs)",p:"150"},{n:"Chicken Lollipop (5 pcs)",p:"300"},{n:"Chicken Wings of Fire (4 pcs)",p:"300"},
+      {n:"Chicken Manchurian Dry",p:"250"},{n:"Crispy Honey Chilly Chicken",p:"280"},{n:"Drums of Heaven (4 pcs)",p:"320"}]},
+    { title:"Pizza", items:[
+      {n:"Cheese & Tomato",p:"110 / 150",v:1},{n:"Mushroom & Onion",p:"180 / 250",v:1},{n:"Chilly Paneer",p:"210",v:1},
+      {n:"Corn Paneer / Chicken",p:"180 / 210"},{n:"Fresh Veggie",p:"220 / 260",v:1},{n:"Spicy Chicken",p:"180"},{n:"Extra Cheese",p:"50",v:1}]},
+    { title:"Pasta", items:[
+      {n:"Alfredo Pasta",p:"150 / 200",v:1},{n:"Arrabbiata Pasta",p:"150 / 200",v:1},
+      {n:"Tom Basil Sauce Pasta",p:"160 / 200",v:1},{n:"Cheese Sauce Pasta",p:"160 / 200",v:1}]},
+    { title:"Noodles", items:[
+      {n:"Hakka Noodles",p:"110",v:1},{n:"Chowmein",p:"130 / 180",v:1},{n:"Paneer Chowmein",p:"140",v:1},
+      {n:"Chilly Garlic Noodles",p:"130 / 190",v:1},{n:"Chilly Garlic Paneer Noodles",p:"140",v:1},
+      {n:"Schezwan Hakka Noodles",p:"150 / 180",v:1},{n:"Shanghai Noodles",p:"180 / 210",v:1},
+      {n:"Singapuri Noodles",p:"160 / 190",v:1},{n:"Hong Kong Style Noodles",p:"160 / 190",v:1},{n:"Egg Noodles",p:"130"}]},
+    { title:"Rice", items:[
+      {n:"Mix Veg Fried Rice",p:"120",v:1},{n:"Chilly Garlic Fried Rice",p:"130",v:1},{n:"Chilly Garlic Paneer Fried Rice",p:"140",v:1},
+      {n:"Schezwan Fried Rice",p:"150 / 180",v:1},{n:"Singapuri Fried Rice",p:"160 / 180",v:1},
+      {n:"Hong Kong Style Fried Rice",p:"160 / 180",v:1},{n:"Mexican Fried Rice",p:"160 / 180",v:1},
+      {n:"Egg Fried Rice",p:"130"},{n:"Egg Chilly Garlic Fried Rice",p:"140"},{n:"Chicken Fried Rice",p:"150"},
+      {n:"Chilly Garlic Chicken Fried Rice",p:"160"},{n:"Schezwan Chicken Fried Rice",p:"160"},
+      {n:"Singapuri Chicken Fried Rice",p:"160"},{n:"Chicken Hong Kong Fried Rice",p:"160"}]},
+    { title:"Combos", items:[
+      {n:"Veg Manchurian",p:"130",v:1},{n:"Veg Shashlik Combo",p:"130",v:1},{n:"Chilly Paneer",p:"130",v:1},
+      {n:"Paneer Manchurian",p:"130",v:1},{n:"Mix Veg Black Pepper",p:"130",v:1},{n:"Schezwan Vegetables",p:"130",v:1},
+      {n:"Mix Veg Hot Garlic Sauce",p:"130",v:1},{n:"Chilly Chicken",p:"150"},{n:"Chicken Manchurian",p:"150"},{n:"Chicken Black Pepper",p:"150"}]},
+    { title:"Ala-Carte Gravy", items:[
+      {n:"Manchurian",p:"140 / 250",v:1},{n:"Paneer Manchurian",p:"160",v:1},{n:"Chilly Paneer",p:"160",v:1},
+      {n:"Hot Garlic",p:"150 / 250",v:1},{n:"Schezwan",p:"160 / 250",v:1},{n:"Hong Kong",p:"170 / 250"},
+      {n:"Chilly Chicken",p:"280"},{n:"Chicken Black Pepper",p:"300"}]},
+    { title:"Beverages", items:[
+      {n:"Mineral Water",p:"20",v:1},{n:"Cold Drink",p:"50",v:1},{n:"Tea",p:"20",v:1},{n:"Hot Coffee",p:"50",v:1},
+      {n:"Cold Coffee",p:"120",v:1},{n:"Cold Coffee with Ice Cream",p:"150",v:1,t:"Popular"},
+      {n:"Hell",p:"100",v:1},{n:"Red Bull",p:"150",v:1}]},
+  ];
+  let active = menu[0].title;
+  function renderMenu(){
+    document.getElementById('menuTabs').innerHTML = menu.map(c=>`
+      <button data-cat="${c.title}" class="whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-medium transition-all border ${active===c.title?'bg-gold-grad text-bg border-transparent shadow-gold':'bg-bg/50 border-border text-fg/70 hover:text-gold hover:border-gold/40'}">${c.title}</button>`).join('');
+    const cur = menu.find(c=>c.title===active);
+    document.getElementById('menuItems').innerHTML = cur.items.map(it=>`
+      <div class="flex items-baseline gap-3 py-3 border-b border-border last:border-0">
+        <span class="mt-1 inline-block w-3 h-3 border-2 flex-shrink-0 ${it.v?'border-green-500':'border-red-500'}">
+          <span class="block w-full h-full rounded-full ${it.v?'bg-green-500':'bg-red-500'}" style="transform:scale(.5)"></span>
+        </span>
+        <div class="flex-1">
+          <span class="font-medium">${it.n}</span>
+          ${it.t?`<span class="ml-2 text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-gold/15 text-gold font-semibold">${it.t}</span>`:''}
+        </div>
+        <span class="font-display text-lg text-gold font-semibold tabular-nums">₹${it.p}</span>
+      </div>`).join('');
+    document.querySelectorAll('#menuTabs button').forEach(b=>b.addEventListener('click',()=>{ active=b.dataset.cat; renderMenu(); }));
+  }
+  renderMenu();
+</script>
+</body>
+</html>
